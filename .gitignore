@@ -1,6 +1,54 @@
-/vendor/
-/.env
+# Environment / secrets
 .env
+.env.*
+!.env.example
+
+# Composer
+/vendor/
+
+# Logs
 *.log
+
+# User uploads
+/assets/uploads/
+
+# Local database dumps
+*.sql
+/database/dumps/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies
+/vendor/
+
+# Database files
+/database/
+
+# User uploads
+/assets/uploads/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
 .DS_Store
 Thumbs.db
